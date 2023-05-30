@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/QLPhieuMuon"
+        android:title="Quan ly phieu muon"
+        android:icon="@drawable/baseline_call_to_action_24"/>
+    <item android:id="@+id/QLLoaiSach"
+        android:title="Quan ly loai sach"
+        android:icon="@drawable/baseline_menu_book_24"/>
+    <item android:id="@+id/QLSach"
+        android:title="Quan ly sach"
+        android:icon="@drawable/baseline_bookmark_24"/>
+    <item android:id="@+id/QLThanhVien"
+        android:title="Quan ly thanh vien"
+        android:icon="@drawable/baseline_self_improvement_24"/>
+    <item android:title="Thong ke">
+       <menu>
+           <item android:id="@+id/Top10"
+               android:title="Top 10 Sach muon nhieu nhat"
+               android:icon="@drawable/baseline_vertical_align_top_24"/>
+           <item android:id="@+id/DoanhThu"
+               android:title="Doanh thu"
+               android:icon="@drawable/baseline_attach_money_24"/>
+       </menu>
+    </item>
+    <item android:title="Nguoi dung">
+        <menu>
+            <item android:id="@+id/DoiMatKhau"
+                android:title="Doi mat khau"
+                android:icon="@drawable/baseline_key_24"/>
+            <item android:id="@+id/Thoat"
+                android:title="Thoat"
+                android:icon="@drawable/baseline_logout_24"/>
+        </menu>
+    </item>
+
+
+</menu>
