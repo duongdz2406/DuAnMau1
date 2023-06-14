@@ -28,6 +28,8 @@ import com.example.duanmau.dao.SachDAO;
 import com.example.duanmau.dao.ThuThuDAO;
 import com.example.duanmau.fragment.QLLoaiSachFragment;
 import com.example.duanmau.fragment.QLPhieuMuonFragment;
+import com.example.duanmau.fragment.QLSachFragment;
+import com.example.duanmau.fragment.QLThanhVienFragment;
 import com.example.duanmau.fragment.ThongKeDoanhThuFragment;
 import com.example.duanmau.fragment.ThongKeTop10;
 import com.google.android.material.navigation.NavigationView;
@@ -67,6 +69,11 @@ public class MainActivity extends AppCompatActivity {
                     fragment = new ThongKeTop10();
                 }else if (item.getItemId()==R.id.DoanhThu) {
                     fragment = new ThongKeDoanhThuFragment();
+                }else if (item.getItemId()==R.id.QLThanhVien) {
+                    fragment = new QLThanhVienFragment();
+                }
+                else if (item.getItemId()==R.id.QLSach) {
+                    fragment = new QLSachFragment();
                 }
 
                 if (fragment!=null){

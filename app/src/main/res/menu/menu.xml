@@ -24,6 +24,7 @@
     </item>
     <item android:title="Nguoi dung">
         <menu>
+
             <item android:id="@+id/DoiMatKhau"
                 android:title="Doi mat khau"
                 android:icon="@drawable/baseline_key_24"/>
